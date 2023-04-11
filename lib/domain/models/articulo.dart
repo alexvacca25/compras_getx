@@ -27,7 +27,7 @@ Map<String, dynamic> art = {
   "detalle": "Celular XIAOMI Redmi Note 11 128 GB Gris",
   "foto":
       "https://www.eltiempo.com/files/article_content/files/crop/uploads/2020/02/03/5e38409f1bcb0.r_1580745285279.168-0-1128-720.jpeg",
-  "existencias": 40,
+  "existencias": 4,
   "vrUnitario": 849900.0
 };
 Map<String, dynamic> art1 = {
@@ -35,7 +35,7 @@ Map<String, dynamic> art1 = {
   "detalle": "Celular Iphone Redmi Note 11 128 GB Gris",
   "foto":
       "https://www.eltiempo.com/files/article_content/files/crop/uploads/2020/02/03/5e38409f1bcb0.r_1580745285279.168-0-1128-720.jpeg",
-  "existencias": 20,
+  "existencias": 2,
   "vrUnitario": 100900.0
 };
 

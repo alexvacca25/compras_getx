@@ -18,15 +18,18 @@ class ComprasController extends GetxController {
 
   comprar(String op, int i) {
     if (op == "+") {
-      compras.value++;
-      listaComp.value.add(listaGart.value[i]);
-      print(compras.value);
+      if (compras.value < listaGart.value[i].existencias) {
+        compras.value++;
+        listaComp.value.add(listaGart.value[i]);
+        print(compras.value);
+      }
     } else {
       compras.value--;
     }
   }
 
   actualizarCompra(int i) {
+    compras.value--;
     listaComp.value.removeAt(i);
     listaComp.refresh();
   }
